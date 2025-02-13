@@ -1,0 +1,70 @@
+float avatarCenterCloseUpDistFromCenter 0.5
+float cameraAnchorInterpDistMultiplier 0.05
+float cameraApproachTime 0.4
+float cameraAutoPitchCloseMax 15
+float cameraAutoPitchCloseMin -15
+float cameraAutoPitchCloseStd 20
+float cameraAutoPitchFarMax 85
+float cameraAutoPitchFarMin -30
+float cameraAutoPitchFarStd 30
+float cameraMaxPitch 89 # Better Creature Camera # New # Unlocked max pitch. >89 gets buggy.
+float cameraMinPitch -89 # Better Creature Camera # New # Unlocked min pitch. <-89 gets buggy.
+bool cameraBreathAffectsAim false
+float cameraBreathAmplitudeMax 0.005
+float cameraBreathAmplitudeMin 0
+float cameraBreathFrequencyMax 0.7
+float cameraBreathFrequencyMin 0.5
+float cameraBreathSpeedMax 4
+float cameraBreathSpeedMin 1
+float cameraDeadZone 0.4
+bool cameraEnableAutoPitch false
+bool cameraEnableBreathing true
+bool cameraEnableFreePitch true
+bool cameraEnableMiddleMouseLook true
+bool cameraEnableShaking true
+bool cameraEnableTreeAvoidance false
+bool cameraEnableTreeHiding true
+float cameraInitialDistance 15
+float cameraInitialRotation 0
+float cameraInterpolateAnchorTime 0.05
+float cameraInterpolateAzimuthTime 0.05
+float cameraInterpolateDistanceTime 0.05
+float cameraInterpolateOrientationTime 0.05
+float cameraInterpolatePitchTime 0.05
+float cameraMaxAcceleration 20
+float cameraMaxDistance 2000 # Better Creature Camera # 25 -> 2000 # Increased max camera distance. >2000 starts to exceed draw distance with BruteLOD.
+float cameraMaxLerp 0.1
+float cameraMinDistance 2 # Better Creature Camera # 5 -> 2 # Decreased min camera distance. <2 breaks.
+float cameraMinLerp 0.03
+int32 cameraMode 0
+float cameraMouseSensitivityX 0.7
+float cameraMouseSensitivityY 0.7 # Better Creature Camera # 0.4 -> 0.7 # Equalized horizontal/vertical sensitivities.
+float cameraMouseSensitivityZ 0.0006
+bool cameraPrintDebugData false
+bool cameraShakeAffectsAim true
+float cameraShakeAmplitudeMax 0.03
+float cameraShakeAmplitudeMin 0
+float cameraShakeFrequencyMin 20
+float cameraShakeRoll 0.03
+float cameraShakeSpeedMax 7.5
+float cameraShakeSpeedMin 1
+bool cameraShowDebugVisuals false
+float cameraVelocityDecayTime 0.2
+float rampOffsetStartDistance 1.3
+float 0x11E24C78 0.5
+float 0x14F8C017 100 # Better Creature Camera # 0.65 -> 100 # "Disabled" auto-center for click-to-move.
+float 0x22FB568C 0.9 # Auto-pitch speed (lower = faster), unmodified.
+float 0x3DBE5F51 5
+float 0x47A9C597 150
+vector2 0x50C6E997 (-90, 90) # Better Creature Camera # (4, 10) -> (-90, 90) # Disabled near camera auto-pitch.
+float 0x582C3384 0.5 # Height offset, unmodified.
+float 0x60EA71BD 2.5
+float 0x7BE527ED 10
+float 0x8C78383D 10
+float 0x8D98B7F8 1.5
+float 0xBC7C9CEE 0.4
+float 0xC8624936 2
+float 0xCA517888 0
+vector2 0xEDB1E6EC (-90, 90) # Better Creature Camera # (4, 20) -> (-90, 90) # Disabled far camera auto-pitch.
+float 0xEEC1BC52 45
+float 0xFF6E121B 35

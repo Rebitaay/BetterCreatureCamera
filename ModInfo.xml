@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod description="" displayName="Better Creature Camera" dllsBuild="$SPOREMOD_DLLS_BUILD" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="$SPOREMOD_EXPERIMENTAL" unique="BetterCreatureCamera">
-  <prerequisite game="GalacticAdventures">Better_Creature_Camera.package</prerequisite>
+<mod description="A set of tweaks for the Creature Stage camera that reduce annoying camera movements and enable better control over your perspective." displayName="Better Creature Camera" dllsBuild="$SPOREMOD_DLLS_BUILD" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="false" unique="BetterCreatureCamera">
+  <prerequisite game="GalacticAdventures">BetterCreatureCamera.package</prerequisite>
 </mod>
