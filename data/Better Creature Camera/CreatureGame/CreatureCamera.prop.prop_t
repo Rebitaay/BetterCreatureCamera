@@ -34,7 +34,7 @@ float cameraInterpolatePitchTime 0.05
 float cameraMaxAcceleration 20
 float cameraMaxDistance 2000 # Better Creature Camera # 25 -> 2000 # Increased max camera distance. >2000 starts to exceed draw distance with BruteLOD.
 float cameraMaxLerp 0.1
-float cameraMinDistance 2 # Better Creature Camera # 5 -> 2 # Decreased min camera distance. <2 breaks.
+float cameraMinDistance 5 # Minimum camera distance. <5 can turn the player creature invisible.
 float cameraMinLerp 0.03
 int32 cameraMode 0
 float cameraMouseSensitivityX 0.7
