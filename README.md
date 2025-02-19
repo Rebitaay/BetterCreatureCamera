@@ -9,7 +9,6 @@ A set of tweaks for the Creature Stage camera that reduce annoying camera moveme
 - Increased camera pitch limits to allow looking straight up and straight down.
 - Increased vertical sensitivity modifier from 0.4 to 0.7 to match horizontal sensitivity modifier.
 - Increased maximum camera distance from 25 to 2000. It's beautiful up there.
-- Decreased minimum camera distance from 5 to 2.
 
 **Known Issue:**
 - Zooming out far enough despawns other creatures. The game's simulation is limited in distance and is tied to the camera's position rather than your avatar's position.
